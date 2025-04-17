@@ -48,6 +48,7 @@ contract HelperConfig is Script{
             ActiveNetworkConfig = getAnvilEthConfig();
         } else {
             revert("No config for this chain");
+            
         }
     }
 }
